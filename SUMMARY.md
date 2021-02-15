@@ -15,7 +15,17 @@
 
 ## 成绩 <a id="score"></a>
 
-* [学期考试成绩](score/semester-score.md)
+* [获取学期考试成绩](score/semester-score.md)
+* [获取等级考试成绩](score/social-test-scores.md)
+
+## 考试 <a id="examination"></a>
+
+* [获取考试安排](examination/examination-arrangement.md)
+
+## 学籍
+
+* [获取学籍异动](xue-ji/huo-qu-xue-ji-yi-dong.md)
+* [获取学籍预警](xue-ji/huo-qu-xue-ji-yu-jing.md)
 
 ## 杂项
 

@@ -36,15 +36,15 @@ description: 此页面可以跳过，因为意义不大。
 10534
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="type" type="string" required=true %}
-0
+{% api-method-parameter name="type" type="string" required=false %}
+0    （此值似乎是可选的，如果不加似乎会带上一堆教师端的菜单）
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="isqy" type="string" required=true %}
+{% api-method-parameter name="isqy" type="string" required=false %}
 
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="key" type="string" required=true %}
+{% api-method-parameter name="key" type="string" required=false %}
 qzkj
 {% endapi-method-parameter %}
 {% endapi-method-form-data-parameters %}
