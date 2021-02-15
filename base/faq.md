@@ -5,7 +5,7 @@
 {% endhint %}
 
 {% hint style="warning" %}
-在使用除了登录以外的所有 API 时，均需要在 Header 中设置 `token`，`token` 来自登录响应
+**在使用除了登录以外的所有 API 时，均需要在 Header 中设置 `token`，`token` 来自登录响应**
 {% endhint %}
 
 ## API 传参类型？
