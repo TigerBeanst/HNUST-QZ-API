@@ -6,6 +6,8 @@ description: 一个非官方的湖科大教务系统 API 文档。
 
 {% hint style="success" %}
 有任何讨论意见，可以前往 [Github 的 Issues](https://github.com/hjthjthjt/HNUST-QZ-API/issues) 中讨论，或[博客文章](https://jakting.com/archives/hnust-qz-api.html)评论区讨论。
+
+此文档地址：[https://kdjw.docs.jakting.com/](https://kdjw.docs.jakting.com/)
 {% endhint %}
 
 {% hint style="info" %}
@@ -16,7 +18,11 @@ description: 一个非官方的湖科大教务系统 API 文档。
 这并不是一个官方文档，强智和学校**随时**可能改 API 导致文档失效。
 {% endhint %}
 
-学校换了个新的系统，虽然还是憨批强智，不过因为在微信端引入了教务系统，使得现在有机会去找到对应的 API 了（好耶
+学校换了个新的系统，虽然还是憨批强智。
+
+新版的 PC 版强智本身是支持 API 的，但学校似乎没买，因此无法使用，访问 API 会直接跳转回首页。
+
+不过因为在微信端引入了教务系统，使得现在有机会去找到对应的 API 了（好耶
 
 ![](.gitbook/assets/image.png)
 

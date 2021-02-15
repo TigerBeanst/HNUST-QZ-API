@@ -3,8 +3,12 @@
 {% hint style="warning" %}
 在获取学期考试成绩时，你需要传入「学期」。
 
-可以在 [获取当前学期](https://kdjw.docs.jakting.com/term/current-term) 和 [获取所有学期列表](https://kdjw.docs.jakting.com/term/all-term) 两个 API 中获得对应的字符串。
+可以在 **获取当前学期** 和 **获取所有学期列表** 两个 API 中获得对应的字符串。
 {% endhint %}
+
+{% page-ref page="../term/current-term.md" %}
+
+{% page-ref page="../term/all-term.md" %}
 
 {% hint style="info" %}
 官方在请求学期考试成绩 API 前，也按顺序（当前 → 所有）访问了上面两个提到的 API。
@@ -16,7 +20,7 @@
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+
 {% endapi-method-description %}
 
 {% api-method-spec %}

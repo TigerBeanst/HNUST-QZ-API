@@ -10,7 +10,7 @@ description: 查阅前请先阅读 必读 FAQ
 {% endapi-method-summary %}
 
 {% api-method-description %}
- 虽然请求的是 `POST` 但是实际上……内容也可以从 URL 参数里拿，即你也可以用 GET 请求它（吐了
+虽然请求的是 `POST` 但是实际上……内容也可以从 URL 参数里拿，即你也可以用 GET 请求它（吐了
 {% endapi-method-description %}
 
 {% api-method-spec %}
