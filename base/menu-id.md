@@ -307,7 +307,7 @@ qzkj
 
 在上面可以找到「成绩」的`i_id` 是`A1BA71608C47653AE0530100007F3E11` 。因此我们可以向其子菜单 API 请求。
 
-{% api-method method="post" host="http://kdfw.hnust.edu.cn/bbxyhd" path="FindSch\_Submenu" %}
+{% api-method method="post" host="http://kdfw.hnust.edu.cn/bbxyhd" path="/FindSch\_Submenu" %}
 {% api-method-summary %}
 获取学校子菜单 ID
 {% endapi-method-summary %}
@@ -319,10 +319,16 @@ qzkj
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
+{% api-method-parameter name="I\_ID" type="string" required=true %}
+父菜单中对应的 i\_id。例如上面的成绩的 id 是 A1BA71608C47653AE0530100007F3E11，此处就可以直接传入这个字符串
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
+
+{% api-method-headers %}
+{% api-method-parameter type="string" name="token" required=true %}
+你在登录 API 处获得的 token 字段
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -331,11 +337,50 @@ qzkj
 
 {% endapi-method-response-example-description %}
 
+{% tabs %}
+{% tab title="成功" %}
+```yaml
+{
+  "code": "1",
+  "Msg": "成功！",
+  "data": [
+    {
+      "is_home": "0",
+      "type": "0",
+      "sort_number": "112",
+      "i_id": "A79EC55C55FC5657E0530100007F9B61",
+      "url": "xs_cj_xq",
+      "name": "学期考试成绩 "
+    },
+    {
+      "is_home": "0",
+      "type": "0",
+      "sort_number": "113",
+      "i_id": "A79EC55C55FD5657E0530100007F9B61",
+      "url": "xs_cj_dj",
+      "name": "等级考试成绩 "
+    }
+  ]
+}
 ```
+{% endtab %}
 
+{% tab title="失败" %}
+{% code title="没想到吧，这 b 还是成功返回嗷。只能通过判断 data 长度来判断是否成功了。" %}
+```yaml
+{
+    "code": "1",
+    "Msg": "成功！",
+    "data": []
+}
 ```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+
 

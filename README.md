@@ -1,8 +1,20 @@
 ---
-description: 请注意，这不是一个官方文档。
+description: 一个非官方的湖科大教务系统 API 文档。
 ---
 
 # 湖南科技大学强智教务系统  API 文档
+
+{% hint style="success" %}
+有任何讨论意见，可以前往 [Github 的 Issues](https://github.com/hjthjthjt/HNUST-QZ-API/issues) 中讨论，或[博客文章](https://jakting.com/archives/hnust-qz-api.html)评论区讨论。
+{% endhint %}
+
+{% hint style="info" %}
+**请务必在阅读前，先查看** [**【必读】FAQ**](https://kdjw.docs.jakting.com/base/faq)**，因未阅读导致的问题请自己负责。**
+{% endhint %}
+
+{% hint style="danger" %}
+这并不是一个官方文档，强智和学校**随时**可能改 API 导致文档失效。
+{% endhint %}
 
 学校换了个新的系统，虽然还是憨批强智，不过因为在微信端引入了教务系统，使得现在有机会去找到对应的 API 了（好耶
 
