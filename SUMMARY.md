@@ -22,10 +22,10 @@
 
 * [获取考试安排](examination/examination-arrangement.md)
 
-## 学籍
+## 学籍 <a id="statue"></a>
 
-* [获取学籍异动](xue-ji/huo-qu-xue-ji-yi-dong.md)
-* [获取学籍预警](xue-ji/huo-qu-xue-ji-yu-jing.md)
+* [获取学籍异动](statue/statue-alienation.md)
+* [获取学籍预警](statue/statue-waring.md)
 
 ## 杂项
 
