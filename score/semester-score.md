@@ -1,5 +1,11 @@
 # 学期考试成绩
 
+{% hint style="info" %}
+在获取学期考试成绩时，你需要传入「学期」。
+
+可以在
+{% endhint %}
+
 {% api-method method="get" host="https://api.cakes.com" path="/v1/cakes/:id" %}
 {% api-method-summary %}
 Get Cakes

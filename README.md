@@ -9,7 +9,7 @@ description: 一个非官方的湖科大教务系统 API 文档。
 {% endhint %}
 
 {% hint style="info" %}
-**请务必在阅读前，先查看** [**【必读】FAQ**](https://kdjw.docs.jakting.com/base/faq)**，因未阅读导致的问题请自己负责。**
+**请务必在阅读前，先查看** [**【必读】FAQ**](https://kdjw.docs.jakting.com/faq)**，因未阅读导致的问题请自己负责。**
 {% endhint %}
 
 {% hint style="danger" %}
