@@ -56,7 +56,7 @@
 默认值为 false，不清楚作用
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="departmentCurriculum" type="string" %}
+{% api-method-parameter name="departmentCurriculum" type="string" required=true %}
 默认值为 false，不清楚作用
 {% endapi-method-parameter %}
 
