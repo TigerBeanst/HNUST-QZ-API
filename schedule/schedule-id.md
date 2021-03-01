@@ -1,14 +1,12 @@
-# 获取评教列表 ⚠
+# 获取课表ID
 
-{% hint style="danger" %}
-此文档目前不可用。
-
-虽然有对应的 API 地址，但目前并不知道评教列表的数据格式是怎样的，等待补充。
+{% hint style="info" %}
+在获取单周课表时，需要传入此接口中得到的 `kbjcmsid`
 {% endhint %}
 
-{% api-method method="post" host="http://kdfw.hnust.edu.cn/bbxyhd" path="/student/studentEvaluate" %}
+{% api-method method="post" host="http://kdfw.hnust.edu.cn/bbxyhd" path="/Get\_sjkbms" %}
 {% api-method-summary %}
-获取评教列表
+获取课表ID
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -32,9 +30,15 @@
 
 ```yaml
 {
-  "Msg": "success",
-  "code": "1",
-  "data": []
+  "msg": "success",
+  "code": 1,
+  "data": [
+    {
+      "mrms": "1",
+      "kbjcmsid": "（所需的 id 内容）",
+      "kbjcmsmc": "默认节次模式"
+    }
+  ]
 }
 ```
 {% endapi-method-response-example %}
