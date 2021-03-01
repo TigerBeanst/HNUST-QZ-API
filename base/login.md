@@ -16,8 +16,8 @@ description: 查阅前请先阅读 必读 FAQ
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-form-data-parameters %}
-{% api-method-parameter name="userNo" type="number" required=true %}
-学号，大概得是 number 类型？如果需要在数据类中指明变量类型的话，请自测是 string 还是 number
+{% api-method-parameter name="userNo" type="string" required=true %}
+学号
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="pwd" type="string" required=true %}
