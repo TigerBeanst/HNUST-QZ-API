@@ -5,7 +5,7 @@ description: 一个非官方的湖科大教务系统 API 文档。
 # 湖南科技大学强智教务系统  API 文档
 
 {% hint style="success" %}
-有任何讨论意见，可以前往 [Github 的 Issues](https://github.com/hjthjthjt/HNUST-QZ-API/issues) 中讨论，或[博客文章](https://jakting.com/archives/hnust-qz-api.html)评论区讨论。
+有任何讨论意见，可以前往 [Github 的 Issues](https://github.com/hjthjthjt/HNUST-QZ-API/issues) 中讨论。
 
 此文档地址：[https://kdjw.docs.jakting.com/](https://kdjw.docs.jakting.com/)
 {% endhint %}
